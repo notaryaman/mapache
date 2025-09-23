@@ -1,0 +1,126 @@
+# flows.yaml — intent-driven playbooks (no slot questions)
+intents:
+  - id: legal/security_deposit
+    examples:
+      - "landlord kept my deposit"
+      - "security deposit not returned"
+      - "deposit issue"
+      - "move out deposit"
+    speak_template: |
+      If your landlord hasn’t returned your deposit, here’s the short path — from your friendly campus raccoon 🦝:
+      California generally requires return of the deposit (or an itemized deductions letter) within 21 days after move-out. Keep your lease, photos from move-out, and any messages. The A.S. Legal Resource Center can help you write a demand letter and walk you through next steps if there’s no response.
+      **Resources**
+      • A.S. Legal Resource Center — https://www.as.ucsb.edu/legal-resource-center/
+      • Isla Vista Tenants Union (IVTU) — https://ivtu.as.ucsb.edu/
+
+  - id: legal/repairs_habitability
+    examples:
+      - "mold in apartment"
+      - "need repairs"
+      - "habitability issue"
+      - "broken heater landlord"
+    speak_template: |
+      For repairs or habitability (mold, leaks, heat, pests), document everything with photos and dates. Send a clear written request to your landlord and keep copies. The A.S. Legal Resource Center can explain your options and help you draft a notice if needed.
+      **Resources**
+      • A.S. Legal Resource Center — https://www.as.ucsb.edu/legal-resource-center/
+      • Isla Vista Tenants Union — https://ivtu.as.ucsb.edu/
+
+  - id: legal/eviction_notice
+    examples:
+      - "eviction notice"
+      - "3 day notice"
+      - "30 day notice to quit"
+      - "unlawful detainer"
+    speak_template: |
+      Eviction timelines/notices can be confusing. Save the notice, your lease, and any messages. The A.S. Legal Resource Center can help you understand what the notice means, deadlines, and your options (including how to respond).
+      **Resources**
+      • A.S. Legal Resource Center — https://www.as.ucsb.edu/legal-resource-center/
+      • Isla Vista Tenants Union — https://ivtu.as.ucsb.edu/
+
+
+  - id: finance/reimbursement
+    examples:
+      - "club reimbursement"
+      - "requisition form"
+      - "get reimbursed"
+      - "student reimbursement"
+    doc_scope:
+      - "Authorized[\\s_-]*Signers[\\s_-]*Workshop[\\s_-]*Presentation.*\\.pdf"       
+    speak_template: |
+      For A.S.-related reimbursements, students typically complete an A.S. Requisition form, attach original itemized receipts, get the required signatures, and submit to A.S. Finance & Business/Cashiers. Processing is usually a couple of weeks.
+      **Resources**
+      • A.S. Finance & Business (forms & policies) — https://www.as.ucsb.edu/finance-and-business/
+      • General UCSB Financial Aid (aid/loans, not reimbursements) — https://www.finaid.ucsb.edu/
+
+  - id: finance/vendor_payment
+    examples:
+      - "pay a vendor"
+      - "vendor invoice"
+      - "honorarium"
+    speak_template: |
+      For vendor payments (not student reimbursements), you’ll submit an A.S. Requisition with vendor details and the invoice, plus required approvals. A.S. Finance & Business can confirm the right form and any W-9/vendor setup steps.
+      **Resources**
+      • A.S. Finance & Business — https://www.as.ucsb.edu/finance-and-business/
+
+  - id: food/food_bank
+    examples:
+      - "food bank"
+      - "need food"
+      - "groceries help"
+      - "hungry"
+    speak_template: |
+      The A.S. Food Bank provides free, fresh, and nonperishable food to UCSB students. Check current hours and bring your Access Card.
+      **Resources**
+      • A.S. Food Bank — https://foodbank.as.ucsb.edu/
+
+  - id: food/calfresh
+    examples:
+      - "calfresh"
+      - "ebt"
+      - "snap benefits"
+    speak_template: |
+      CalFresh (SNAP) can help with monthly grocery costs if you qualify. Campus partners can guide you through eligibility and the application.
+      **Resources**
+      • A.S. Food Bank (CalFresh help & clinics) — https://foodbank.as.ucsb.edu/
+
+  - id: bike/repair
+    examples:
+      - "bike repair"
+      - "flat tire"
+      - "brakes squeaking"
+    speak_template: |
+      Roll over to the A.S. Bike Shop for repairs, parts, and friendly advice. They can help with flats, brakes, chains, and more. Check the hours before you go.
+      **Resources**
+      • A.S. Bike Shop — https://bikeshop.as.ucsb.edu/
+
+  - id: academics/calendar
+    examples:
+      - "academic calendar"
+      - "when is finals week"
+      - "drop deadline"
+      - "pass times"
+    speak_template: |
+      For dates like pass times, deadlines, and finals week, use the Registrar’s Academic Calendars. Always check the current academic year.
+      **Resources**
+      • Registrar Academic Calendars — https://registrar.sa.ucsb.edu/calendars/academic-calendars
+      • UCSB Catalog — https://catalog.ucsb.edu/
+
+  - id: campus/map
+    examples:
+      - "campus map"
+      - "where is"
+      - "directions on campus"
+    speak_template: |
+      The interactive UCSB map is the easiest way to find buildings, bike paths, and parking.
+      **Resources**
+      • UCSB Interactive Map — https://map.ucsb.edu/
+
+  - id: orgs/osl
+    examples:
+      - "start a club"
+      - "register organization"
+      - "student org help"
+    speak_template: |
+      For student org registration, policies, and advising, check OSL. They cover constitutions, officers, events, and training.
+      **Resources**
+      • Office of Student Life (OSL) — https://osl.sa.ucsb.edu/

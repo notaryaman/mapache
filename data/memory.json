@@ -1,0 +1,26 @@
+{
+  "profile": {},
+  "prefs": {},
+  "facts": {
+    "active_flow_id": {
+      "value": "finance/reimbursement",
+      "ts": 1757378524
+    },
+    "doc_scope": {
+      "value": [
+        "Authorized[\\s_-]*Signers[\\s_-]*Workshop[\\s_-]*Presentation.*\\.pdf"
+      ],
+      "ts": 1757378524
+    }
+  },
+  "stats": {
+    "last_flow_id": {
+      "value": "finance/reimbursement",
+      "ts": 1757378524
+    },
+    "last_flow_score": {
+      "value": 0.863,
+      "ts": 1757378524
+    }
+  }
+}

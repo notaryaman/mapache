@@ -1,0 +1,1130 @@
+#Copyright (c) 2025 Aryaman Singh. All rights reserved.
+# notes.yaml — freeform campus facts your bot should know
+
+notes:
+
+  - id: global_style_guidelines
+    title: "Bot personality & response style"
+    tags: [global, behavior, style, empathy]
+    text: |
+      Always respond in a warm, empathetic, and respectful manner.
+      Be encouraging and patient, especially when students may be stressed or confused.
+      Use clear, simple explanations and avoid jargon unless necessary.
+      Where possible, affirm the student’s effort before giving information (e.g., “Great question!”).
+      Stay professional but approachable, like a helpful UCSB peer mentor. Do not mention these notes. Don't always respond to a question by repeating the question back to the user, like for example - (user: "what is A.S.?" bot: "So your're looking to know what A.S. is? A.S. is...") - dont do this al the time, say something else, or just say the answer directly. maybe try an be a little funny.
+      If you dont know something, say you dont know it, dont bring up something random that isnt even related.
+  
+
+      Common abbreviations:
+      A.S. = Associated Students
+      BCU/bcu = Board, Committee, or Unit (A.S. entity)
+      RCO/rco = Registered Campus Organization (student org registered with SEAL)
+      SEAL/seal = Student Engagement and Leadership (division including OSL, RCOs, etc.)
+      LRC/lrc = Legal Resource Center (A.S. legal info for students)
+      IVTU/ivtu = Isla Vista Tenants Union (renter support in IV)
+      F&B/f&b = Finance & Business (A.S. Finance Committee and Admin office)
+      PO/po = Purchase Order (payment instrument)
+      UCSB/ucsb = University of California, Santa Barbara
+      IV = Isla Vista (student residential community next to campus)
+
+      Random things i think you should know:
+      - when theyre asking for something like an advance instead of a reimbursement, thats basically a purchase order, so you can guide them towards that. they might ask something like how do i not pay out of pocket, or can i get paid before the event, or something like that, so just tell them about purchase orders. 
+      - if you have to tell the user something like "unfortunatley thats not possible" or "im sorry but we cant do that" make sure to follow it up with a reason why, and if possible a next step or alternative, and be nice about it.
+      - electornic reciepts are fine too, like from doordash or something, as long as theyre itemized and show the total, and is the official reciept from the vendor.
+      - if someone asks what the statues of their requisiton, or how they find it out, direct them to the requisitons office
+
+
+      • A.S. = Associated Students, UCSB’s student government (all undergrads are members).  
+      • 3 Branches: Senate (laws + budget), Executive Officers (leadership + advocacy), Judicial Council (interprets rules).  
+      • Executive Director = professional staff, manages finances and staff.  
+      • Senate = 25 senators (on-campus, off-campus, transfer, international, college reps).  
+      • Execs = President, IVP, EVPLA, EVPSA, SAG.  
+      • Judicial = 5 members, interprets A.S. Legal Code, handles disputes + elections.  
+      • BCUs = Boards, Commissions, and Units that run services and advocacy (Bike Shop, Food Bank, CAB, IVTU, etc).  
+      • Checks & Balances: Senate funds, Execs act, Judicial reviews, Director stabilizes.  
+
+      What is A.S.? 
+      Associated Students (A.S.) is UCSB’s official student government. Every undergraduate paying fees is automatically a member. A.S. advocates for student interests, allocates fees, and operates services like the Bike Shop, Program Board, Food Bank, and Legal Resource Center.
+
+   
+      Legislative Branch – Senate*
+      • Supreme policy-making body of A.S.  
+      • 25 Senators: 5 On-Campus, 12 Off-Campus, 1 University-Owned Housing, 4 Letters & Science, 1 Engineering, 1 Creative Studies, 1 Transfer, 2 International.  
+      • Powers: approves budget, ratifies appointments, oversees policy, supervises A.S. entities, can override vetoes with 2/3 vote.  
+      • Meetings: weekly, quorum = majority.  
+
+      **Executive Branch – Officers**  
+      Five elected officers:  
+      - **President** – Chief Executive, official representative to campus, UC Regents, and government; submits budget; can veto Senate.  
+      - **Internal Vice President (IVP)** – Chairs Senate, handles internal affairs, trains senators.  
+      - **External VP for Local Affairs (EVPLA)** – Liaison to Isla Vista + Santa Barbara County.  
+      - **External VP for Statewide Affairs (EVPSA)** – Liaison to UC system, state, federal issues.  
+      - **Student Advocate General (SAG)** – Non-partisan student defender in disputes with UCSB; oversees Student Bill of Rights.  
+      • Succession Order for President: IVP → EVPLA → EVPSA → SAG → Senate Pro-Tempores.  
+
+      **Judicial Branch – Judicial Council**  
+      • 4 Members-at-Large + 1 Chair (appointed by President, confirmed by Senate).  
+      • Powers: hears cases under Legal Code, acts as appellate body, issues advisory opinions, oversees election disputes.  
+      • May establish Sub-Judicial Councils.  
+
+      **Executive Director (Professional Staff)**  
+      • Selected by Senate, indefinite term.  
+      • Manages all A.S. finances, contracts, accounts, and professional staff.  
+      • Provides institutional continuity between student governments.  
+      • Can only be removed by 3/4 Senate vote and UCSB HR approval.  
+
+    
+      **Boards, Commissions, and Units (BCUs)**  
+      • BCUs are the working arms of A.S. — where most student services and activism happen.  
+      • Categories include:  
+      - **Enterprise Units** (Bike Shop, Ticket Office, Legal Resource Center, Publications, Zero Waste, Food Bank).  
+      - **Events & Media** (KCSB Radio, The Bottom Line newspaper, Program Board concerts/events, Media Center).  
+      - **Philanthropy Units** (Community Affairs Board/CAB, Coastal Fund, Community Volunteer Foundation).  
+      - **Advocacy Units** (Isla Vista Tenants Union, Lobby Corps, Commission on Disability Equality, SCORE, Queer Commission, COSWB, Environmental Affairs Board, etc).  
+      • BCUs receive funding through lock-in student fees and annual Senate budget allocations.  
+      • Chairs are student leaders, usually appointed by the A.S. President or Committee on Committees and ratified by Senate.  
+      • BCUs are semi-autonomous but must follow A.S. Legal Code and report to Senate.  
+
+    
+      **Checks and Balances**  
+      • Senate = controls money and passes policies.  
+      • Execs = implement policies and represent students.  
+      • Judicial = interprets Legal Code and resolves disputes.  
+      • Exec Director = ensures financial/legal stability.  
+      • BCUs = provide services, advocacy, and community projects.  
+      Together they balance power and keep A.S. accountable while delivering services students actually use.  
+
+        Boards & Commissions
+      * Book Bank — Free textbook lending service. 
+      * Black Womyn’s Health Collaborative (BWHC) — Holistic health & advocacy for Black womyn. 
+      * Commission for Marginalized Genders (CMG) — Advocacy for women, non-binary & trans students. 
+      * Commission on Disability/Disabled Equality (CODE) — Disability equity education & advocacy. 
+      * Commission on Culture, Arts & Joy Justice (CCAJJ) — Cross-cultural programming & coalition-building. 
+      * Commission on Student Well-Being (COSWB) — Mental health, stress reduction, wellness programs. 
+      * Environmental Affairs Board (EAB) — Campus/environmental sustainability & advocacy. 
+      * Environmental Justice Alliance (EJA) — Environmental justice awareness & action. 
+      * Global Gaucho Commission (GGC) — Support for international students’ experience. 
+      * Human Rights Board (HRB) — Education on global human rights issues.
+      * Jewish Commission (“JComm”) — Advocacy, education, and space for Jewish students. 
+      * Public Safety Commission (PSC) — Safety policy, harm reduction, IV infrastructure; formerly “COPS.” 
+      * Student Commission on Racial Equality (SCORE) — Anti-racism education & advocacy. 
+      * Student-Initiated Recruitment & Retention Committee (SIRRC) — Support for recruitment/retention of underrepresented & low-income students. 
+      * Take Back the Night (TBTN) — Survivor empowerment & anti-sexual-violence activism. 
+      * Trans & Queer Commission (TQComm) — Funding & advocacy for trans & queer communities. 
+      Enterprise Units (student-run services)
+      * AS Bike Shop — Low-cost bike repair & education. 
+      * Cashiers & Ticket Office (CTO) — Tickets, bus stickers, emergency loans, course readers. 
+      * Department of Public Worms (DPW) — Composting, Edible Campus Projects, garden education. 
+      * AS Food Bank — Free food & toiletries for students in need. 
+      * Legal Resource Center (LRC) — Free legal counseling for students. 
+      * Publications Service — Copy/print shop (class readers, printing). 
+      * AS Recycling (ASR) — Campus recycling & waste-reduction programs. 
+      * Zero Waste Committee (ZWC) — Student projects toward zero waste. 
+      Media & Events Units
+      * KCSB-FM 91.9 (KCSB) — Non-commercial community radio. 
+      * The Bottom Line (TBL) — Student newspaper & online outlet. 
+      * Creative Media Unit (CMU) — Student design/video; equipment & lab access. 
+      * AS Media Center — Student creative space & equipment checkout. 
+      * AS Program Board (ASPB) — Concerts, festivals, and campus entertainment. 
+      * UCSB TV — Student-produced video on UCSB life. 
+      Philanthropy Units / Funding & Service Boards
+      * America Reads/Counts (AR/AC) — Federal Work-Study tutors in local schools. 
+      * Bike Committee (ASBC / “BIKES”) — Bike safety advocacy & campus bike improvements. 
+      * Coastal Fund — Grants for protecting UCSB’s coastline & habitats. 
+      * Community Affairs Board (CAB) — Campus-community service & volunteering hub. 
+      * Community Financial Fund (CFF) — Personal finance education & micro-grants. 
+      * Community Volunteer Foundation (CoVo) — Grants for student-led service programs.
+      * Isla Vista Community Relations Committee (IVCRC) — Funding & programs to strengthen IV community relations. 
+      * IV Arts — Arts as community catalyst in Isla Vista.
+      * Living History Project (LHP) — Archives & tells UCSB student activism history. 
+      Advocacy Units (extra to know; many work like commissions)
+      * Isla Vista Tenants Union (IVTU) — Tenants’ rights education & support. 
+      * Lobby Corps (LC) — Student lobbying at local/state/national levels. 
+      * Public & Mental Health Commission (PMHC) — Public/mental health initiatives & advocacy.
+      * Transfer Student Alliance (TSA) — Support & programming for transfer students. 
+      * Raíces de mi Tierra — Mexican folklórico dance group (
+      * Students Against Sexual Assault (SASA) — Survivor advocacy & prevention (formerly SAPA).  
+
+      Groups can get funding fromm any board or comission above, but they usually come to the finance comittee as it is litreally its only job to fund organizations, while the other boards and comissions have other jobs too. If someone asks about funding, you can direct them to the finance comittee, but if they ask about something specific like the coastal fund or the community affairs board, you can direct them to those too. The fundng process is exactly the same, they submit the same requisitoin forms and everything, its just that the funding comes from a different board or comission. They have to submit the meeting minutes from the meeting where they got approved for the funding though, so if theyre going to the finance comittee, they have to submit the minutes from the finance comittee meeting where they got approved for the funding. If theyre going to a different board or comission, they have to submit the minutes from that board or comission's meeting where they got approved for the funding.
+
+      If someone is asking for funding for their club or something (they might not say they are looking for funding for their club, they might just say im looking for funding for like a debate competiton or something so look out), maybe they want to go on a trip or organize a big event for their organizaton, guide them to the finance committee and how to make a request to the finance comittee. They have to submit a fluxx application by sunday at 4pm, and then they have to send a representative to the finance comittee meeting on monday at 4pm to present their request and answer any questions. The finance comittee meets every monday at 4pm, except for holidays and during week 10. The finance comittee is responsible for allocating A.S. funds to student organizations and events. They have a budget of about $1 million per year to distribute.
+
+      After an organization submits a fluxx request, they are added to the finance committee agenda for the next meeting. They should send a representative to the meeting to present their request and answer any questions. The finance committee will then vote on whether to approve or deny the request. If approved, the organization will receive the funds and can then submit a requisition form to get reimbursed for their expenses, or if they need an advance, they can request a purchase order instead of a reimbursement. If an organizaton does not have a represenatatve show up at the next meeting after they submit their fluxx request, their request will be tabled until the next meeting, and they will have to send a representative to that meeting to present their request and answer any questions. If they do not show up to that meeting either, their request will be tabled indefinitely, and they will have to submit a new fluxx request to be considered again.
+
+      For all kind of requests, whether it be from a Registered Campus Organization (RCO) or an A.S. Board, Comittee, or Unit (BCU), the requisiton is the same.
+
+      Under no circumstance does a requisiton not need all supporting documents. For every single one, you need to have meeting minutes, you neet to have itemized receipts, you need to have two authorized signers, you need to have the requisiton form filled out correctly, and you need to have the organization account information correct. If any of these things are missing, the requisiton will be rejected and sent back to the organization to fix. Be firm with it, no excuses. The only alternative would be a conversation with A.S. Admin themselves and they would have to make an exception, but that is very rare and should not be relied on.
+
+
+      
+
+  - id: as_contacts
+    title: "A.S. quick contacts"
+    tags: [as, finance, contacts]
+    text: |
+      A.S. Finance Committee meetings: Usually happed on Mondays at 4pm in the State Street Room in the UCeN. Do not state contacts unless explicity asked, or if you dont know the answer to a question.
+      Michael Cea – Associate Director for Finance and Budget - email: mdcea@ucsb.edu. Head Advisor for Finance Comittee. Recommend to connect with him if user has a Requisitoin/Financial Policy question that you dont understand. 
+      Sebastian Acosta – Financial Administrative Assistant - email: Sebastianacosta@ucsb.edu. Reccomend to connect with him if user has a Requisition question that you dont understand.
+      
+    url: https://www.as.ucsb.edu/finance-and-business/
+
+  - id: ivtu_mission
+    title: "What IVTU helps with"
+    tags: [housing, legal, ivtu]
+    text: |
+      The Isla Vista Tenants Union (IVTU) supports renters in Isla Vista with deposits, repairs, habitability, and communication with landlords.
+      They offer education, templates, and referrals to A.S. Legal Resource Center for legal questions.
+    url: https://ivtu.as.ucsb.edu/
+
+  - id: lrc_mission
+    title: "A.S. Legal Resource Center scope"
+    tags: [legal, housing, lrc]
+    text: |
+      The A.S. Legal Resource Center provides free legal information to UCSB students. They can explain processes,
+      help draft letters (e.g., deposit demand, repair requests), and offer referrals. They do not represent students in court.
+    url: https://legal.as.ucsb.edu
+
+  - id: reimbursement_overview
+    title: "Reimbursement basics"
+    tags: [finance, reimbursement]
+    text: |
+      Reimbursements typically require: (1) A.S. Requisition form, (2) original itemized receipts, (3) Authorized Signer signatures,
+      and (4) Meeting minutes from where the funding was approved. Processing is usually a couple of weeks after complete submission.
+    url: https://www.as.ucsb.edu/finance-and-business/
+  
+  
+  - id: reimbursement_location
+    title: "Where to submit requisitions"
+    tags: [finance, reimbursement]
+    text: |
+      Completed requisition forms can be submitted either by email to requistions@as.ucsb.edu or in person at the A.S. Admin office on the second floor of the Multicultural Center. Remind user to make sure they have all the documents they need(ex. Requisition form, itemized receipts, signatures, meeting minutes)
+    url: ttps://asfb.as.ucsb.edu
+
+  - id: eviction_notice
+    title: "Eviction notice basics"
+    tags: [legal, housing, eviction]
+    text: |
+      Say youre sorry they are in that situatuion that striaght up sucks. They should reach out to the IVTU Chair or Finance Committee Chair regarding the Rent Support Program, which is a program in collaboartion with the Education Oppurtunity Program specifically created for this kind of scenrio. If you meet all the crtieria you can get up to 2 months of rent support, and it is absolutely recommended that they try their luck with the program. They can find more inforamtin about the chairs and their contacts at their respective websites: https://ivtu.as.ucsb.edu/staff/ and https://asfb.as.ucsb.edu/about/
+      They should also reach out to the A.S. Legal Resource Center for help understanding the notice, deadlines, and options. They can help them understand what the notice means, deadlines, and your options (including how to respond).   
+    url: https://legal.as.ucsb.edu
+  
+  - id: as_financial_structure_overview
+    title: "A.S. Financial Structure: what funds A.S."
+    tags: [finance, structure, overview]
+    text: |
+     Associated Students (A.S.) of UCSB is student-funded, non-state, and a nonprofit entity.
+      As of 2024: the quarterly student fee is $238.67 in Fall/Winter/Spring and $209.80 in Summer.
+      A.S. funds 77 boards/committees/commissions and supports at least 500 Registered Campus Organizations (RCOs).
+    url: "https://www.as.ucsb.edu/"
+  
+  - id: funding_eligibility
+    title: "Eligibility for A.S. funding"
+    tags: [finance, eligibility, funding]
+    text: |
+      Eligible: Official A.S. organizations, official University units, and in-status SEAL Registered Campus Organizations (RCOs) listed on Shoreline.
+      RCOs must be re-registered annually and must be registered for five academic weeks before receiving funding.
+    url: "https://www.sa.ucsb.edu/osl/recognized-orgs"
+
+  - id: non_fundable_criteria
+    title: "What A.S. does not fund (membership restrictions)"
+    tags: [finance, policy, equity]
+    text: |
+      A.S. does not fund organizations whose membership is contingent upon gender, race, ethnicity, sexual orientation, GPA, faith, ideological beliefs, or fellowship.
+      Finance Committee may fund events/activities provided they are open to all UCSB students.
+    url: "https://www.as.ucsb.edu/documents/governing-documents/"
+
+  - id: authorized_signer_definition
+    title: "What is an Authorized Signer?"
+    tags: [authorized_signer, roles, requisitions]
+    text: |
+      A Student Officer, Advisor, or University staff member who is responsible for the financial matters of an organization.
+      Two different authorized signers must sign each requisition; you cannot sign a requisition payable to yourself—have at least three authorized signers.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: becoming_an_authorized_signer
+    title: "How to become an Authorized Signer"
+    tags: [authorized_signer, onboarding, workshop]
+    text: |
+      1) Attend an Authorized Signers workshop.
+      2) Complete and turn in signature forms to the A.S. Administration office AND complete the online Authorized Signers application (Signer Portal).
+    url: "https://www.as.ucsb.edu/"
+
+  - id: signer_responsibilities_checklist
+    title: "Authorized Signer responsibilities (self-check)"
+    tags: [authorized_signer, compliance, checklist]
+    text: |
+      Before approving a requisition, confirm:
+      1) Is the expenditure appropriate and aligned with mission?
+      2) Are all supporting documents included (itemized receipts, invoices, minutes, etc.)?
+      3) Has the org approved it internally?
+      4) Was a policy exception needed and properly approved?
+    url: "https://www.as.ucsb.edu/"
+
+  - id: request_funding_flow
+    title: "How to request funding (Finance Committee)"
+    tags: [funding, finance_committee, process]
+    text: |
+      A) Identify the best fit: Finance Committee or other A.S. entity aligned with your mission.
+      B) Prepare a detailed budget.
+      C) Register and submit an F&B application in Fluxx by Sunday 4:00 PM to get on the agenda.
+      D) Finance Committee meets Mondays at 4:00 PM (no meetings on Monday holidays or during Week 10).
+      E) Send an informed representative to present and answer questions.
+    url: "https://asucsb.fluxx.io"
+
+  - id: common_funding_questions
+    title: "Questions the Finance Committee often asks"
+    tags: [funding, presentations, prep]
+    text: |
+      1) Event details and campus benefit.
+      2) Is it open to all UCSB students?
+      3) Other funding sources sought?
+      4) Priority of line items.
+      5) Rationale for grey-area line items (e.g., t-shirts, equipment, travel).
+    url: "https://asfb.as.ucsb.edu/"
+
+  - id: finance_committee_logo_requirement
+    title: "If funded: include the Finance Committee logo"
+    tags: [funding, branding, compliance]
+    text: |
+      All advertising materials for Finance Committee-funded events must include the official Finance Committee logo.
+      Refer to the logo usage page for downloadable assets and guidance.
+    url: "https://asfb.as.ucsb.edu/logos/"
+
+  - id: financial_policies_location
+    title: "Where to find A.S. Financial Policies & Procedures"
+    tags: [policy, reference, governance]
+    text: |
+      The A.S. Financial Policies and Procedures are posted on the A.S. Governing Documents page.
+    url: "https://www.as.ucsb.edu/documents/governing-documents/"
+
+  - id: common_policy_limitations
+    title: "Common limitations on A.S. funding"
+    tags: [policy, limitations, funding]
+    text: |
+      Typical limitations include: travel/transportation costs; food expenditures (generally capped around $1,000);
+      expenses for off-campus events (exceptions for Isla Vista and Goleta State Beach); decorations; personal items (for example - costumes, personalized shirts, or anything that someone is keeping/taking home with themselves));
+      awards/trophies/scholarships for individuals (incl. gift cards); fundraising for your own org; equipment purchases (rentals preferred—essential equipment allowed when justified).
+      Always consult the current Financial Policies for exact rules and caps.
+    url: "https://www.as.ucsb.edu/documents/governing-documents/"
+
+  - id: policy_exception_process
+    title: "Requesting a financial policy exception"
+    tags: [policy, exceptions, finance_committee]
+    text: |
+      A) Finance Committee may make exceptions by a two-thirds vote.
+      B) SEAL RCOs(Student Engagement and Leadership Registered Campus Organization): one-time exception per year for one policy.
+      C) A.S. BCUs (Boards, Comittee, Units): may receive more than one; must request BEFORE spending.
+      D) No retroactive exception requests will be approved.
+      To request: submit a Fluxx application by Sunday 4:00 PM and send a representative to Finance Committee on Monday at 4:00 PM.
+    url: "https://asucsb.fluxx.io"
+
+  - id: contracts_speaker_fees_overview
+    title: "Contracts & speaker/performer payments"
+    tags: [contracts, speakers, payments]
+    text: |
+      A.S. contracts must be signed by the A.S. Executive Director before payment.
+      Students cannot sign contracts. Do not pay performers directly and seek reimbursement—Admin pays performers directly.
+      For SEAL RCOs, use SEAL contract templates. Submit completed paperwork at least two weeks before the event.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: contracts_required_docs
+    title: "Documentation required for speaker/performer payments"
+    tags: [contracts, compliance, documentation]
+    text: |
+      Include: 1) Completed requisition, 2) Performance contract dated/signed/initialed (with contract number),
+      3) Finance Committee meeting minutes approving funds (or the meeting minutes of the A.S. Entity that approved the funds), 4) W-9 (or W-8 BEN for international),
+      5) A.S. BCUs: Certificate of Insurance (coordinate with your A.S. advisor).
+      Payment is day-of or mailed after the event; start by contacting your advisor.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: ticket_sales_policy
+    title: "Ticket sales policy"
+    tags: [tickets, revenue, policy]
+    text: |
+      All ticket sales must go through the A.S. Ticket Office—no Venmo, Zelle, or cash sales.
+      Ticket revenue should cover event costs; fundraising for your own organization via ticket sales is against policy.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: sustainable_purchasing_basics
+    title: "Sustainable purchasing: compostables & water policy"
+    tags: [sustainability, purchasing, zero_waste]
+    text: |
+      For events/guests, buy certified compostable single-use food service products (plates, bowls, utensils, cups, napkins)—available via the Zero Waste Committee.
+      No single-use water bottles. Use 5-gallon jug pumps for hydration stations.
+      Events must provide at least one compost and one recycling bin for each landfill bin; A.S. Recycling can provide services.
+    url: "https://zerowaste.as.ucsb.edu/"
+
+  - id: sustainable_purchasing_tshirts_food
+    title: "T-shirts & inclusive food options"
+    tags: [sustainability, tshirts, food]
+    text: |
+      T-shirts are for awareness campaigns only and must be GOTS-certified, Fair Trade, or Made in USA from 100% recycled materials.
+      Provide a shirt design with your Fluxx funding request.
+      Public events >30 attendees with food must include vegetarian and vegan options.
+    url: "https://sustainability.as.ucsb.edu/"
+
+  - id: travel_policy_overview
+    title: "Travel policy (approvals & documentation)"
+    tags: [travel, approvals, documentation]
+    text: |
+      All travel must be approved by the Finance Committee (A.S. Staff/Execs need the A.S. Executive Director’s approval only).
+      A.S. will not fund personal or social travel. Attach conference announcement/proof of purpose.
+      For personal car use, provide proof of insurance. Keep original, itemized receipts for all costs.
+      Submit receipts within 2 months after returning from pre-approved travel.
+      Refer to Financial Policies for mileage, gas, and meal reimbursement rules.
+    url: "https://www.as.ucsb.edu/documents/governing-documents/"
+
+  - id: requisition_form_overview
+    title: "Requisition form: purpose & where to find it"
+    tags: [requisitions, forms, payments]
+    text: |
+      Requisition forms finalize payments and reimbursements.
+      Use the 2024-25 A.S. UCSB fillable PDF requisition form from the A.S. website.
+      Leave “Office Use Only” blank.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: requisition_prechecklist
+    title: "Before filling a requisition: pre-checklist"
+    tags: [requisitions, checklist, compliance]
+    text: |
+      Ensure: (1) The event/expenditure was properly approved by your BCU or (for RCOs) by Finance Committee,
+      (2) You have physical, original itemized receipts/invoices, (3) Two Authorized Signers (not payable-to self), (4) Accurate totals and org account info.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: requisition_key_fields_tips
+    title: "Key fields on the requisition (tips)"
+    tags: [requisitions, howto, data_entry]
+    text: |
+      Payable To: vendor for invoices or individual for reimbursements; use “UC Regents” for campus services/space.
+      Submit Date: MM/DD/YYYY. Account Name: your org (abbreviations OK). Include permanent mailing address when reimbursing a student.
+      Choose payment type (check vs purchase order) appropriately.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: requisition_types
+    title: "Types of requisitions"
+    tags: [requisitions, checks, purchase_orders, journal_entries]
+    text: |
+      1) Checks: reimbursements—attach original itemized receipts, approval minutes, signed form.
+      2) Purchase Orders (POs): promise to pay—open POs for recurring charges; one-time POs for vendor payments; payment issued after final invoice is sent to invoices@as.ucsb.edu.
+      3) Journal Entries (BCUs only): transfer funds between A.S. accounts—attach approval minutes and select “journal entry” on the form.
+      Other payment instruments: Gateway Order/Vendor Blanket (via UCSB Gateway) or other Business Services methods—coordinate with A.S. Admin before selecting.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: line_item_guidance
+    title: "Line items & totals: how to fill"
+    tags: [requisitions, howto, accounting]
+    text: |
+      Description: what, for what purpose, and from where purchased (e.g., “Kyle’s Kitchen crispy chicken sandwiches for student event attendees”).
+      Unit Price × Quantity = Amount. Subtotal excludes tax/tip/shipping. Use Shipping & Handling box for shipping and clearly-labeled tips.
+      Ensure Total matches receipts. Two Authorized Signers required (and not the payee).
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: where_to_submit_requisitions
+    title: "Where to submit requisitions & who processes them"
+    tags: [requisitions, submission, contacts]
+    text: |
+      Requisitions are processed and paid out by A.S. Administration, not Finance Committee.
+      Email questions or submit documentation per Admin instructions: requisitions@as.ucsb.edu.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: budget_process_scope
+    title: "Budget process (scope)"
+    tags: [budget, bcus, annual_cycle]
+    text: |
+      Relevant to A.S. Boards, Committees, and Units (BCUs) only; RCOs do not receive annual BCU budgets.
+      Each year BCUs go through a budget cycle that results in recommended and approved budgets for the next fiscal year.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: budget_timeline_2025
+    title: "Budget cycle timeline (Winter–Spring 2025 highlights)"
+    tags: [budget, timeline, deadlines]
+    text: |
+      Winter 2025: Week 5—Budget packets sent; Week 9—Budget hearings begin (BCUs explain changes, answer questions).
+      Spring 2025: Week 2—President presents preliminary budget back to Finance Committee; Week 4—Prelim budget to Senate;
+      Week 5—Final proposed budget to Senate; Weeks 5–6—Senate acts (if no action by end of Week 6, President’s FY26 budget is approved);
+      Weeks 7–10—Entities notified of FY26 budgets.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: rollover_requests
+    title: "Rollover requests (BCUs)"
+    tags: [budget, rollover, deadlines]
+    text: |
+      In Spring, BCUs review remaining funds and submit a Rollover Request to carry funds into the next year.
+      Funds without a submitted Rollover Request are moved into the general budget.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: post_workshop_next_steps
+    title: "Post-workshop next steps for signers"
+    tags: [authorized_signer, onboarding, actions]
+    text: |
+      1) Fill out the physical Signers Signature Form; presenter submits it to A.S. Administration.
+      2) Complete the online Authorized Signers application (Signer Portal): Log in → Edit profile → Signer Portal → Submit.
+    url: "https://www.as.ucsb.edu/"
+
+  - id: documents_required_for_requisitions
+    title: "Documents required for requisitions"
+    tags: [requisitions, documentation, checklist]
+    text: |
+      Always attach: (1) Completed requisition form with two Authorized Signer signatures (not payable to self),
+      (2) Original itemized receipts/invoices, (3) Meeting minutes showing expenditure approval.
+      For vendor payments: also include the contract and W-9 (or W-8 BEN for international).
+      For travel reimbursements: also include conference proof and personal car insurance.
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: where_to_find_meeting_minutes
+    title: "Where to find meeting minutes"
+    tags: [minutes, documentation, finance_committee]
+    text: |
+
+      Meeting minutes are the official record of what was discussed and approved at a meeting. If you requested funds from the A.S. Finance Committee, you can find their minutes on their website under Transparency → Finance Committee Minutes. Meeting minutes for the finance committee are usually posted about a week after the meeting, so if you just had a meeting this past monday, the minutes will probably be up by the end of the week or early next week. If you need them sooner, you can always reach out to the Finance Committee Chair or Vice Chair. 
+      If you requested funds from another A.S. entity, you will need to reach out to that entity directly to get their minutes.
+    url: "https://www.as.ucsb.edu/finance-and-business/"
+
+  - id: common.financial.policy.exceptions
+    title: "Common financial policy exceptions"
+    tags: [policy, exceptions, common]
+    text: |
+      Common exceptions include: food expenditures over $1,000;
+      off-campus events (exceptions for Isla Vista and Goleta State Beach); 
+      awards/trophies/scholarships for individuals (incl. gift cards);
+      travel/transportation costs; 
+      personal items (for example - costumes, personalized shirts, or anything that someone is keeping/taking home with themselves);
+      equipment purchases (rentals preferred—essential equipment allowed when justified) and the equipment will be stored by A.S. itself unless decided otherwise by A.S Admin.
+      Always consult the current Financial Policies for exact rules and caps.
+    url: "https://www.as.ucsb.edu/documents/governing-documents/"
+
+  - id: finance_committee_overview
+    title: "A.S. Finance Committee: purpose & responsibilities"
+    tags: [finance, committee, allocations, procedures]
+    text: |
+      The A.S. Finance Committee (formerly Finance & Business Committee prior to FY 2025) oversees allocation and supervision of all A.S. funds.
+      Responsibilities include:
+        • Educating/enforcing A.S. Financial Policy & Procedures
+        • Submitting weekly minutes to Senate for approval
+        • Providing oral reports/discussions at Senate if requested
+        • Assisting with financial procedures (requisitions, budget transfers, fiscal/event planning)
+        • Preparing the annual budget recommendation for the A.S. President
+        • Evaluating effectiveness of A.S. funded organizations
+        • Maintaining liaison relationships with funded organizations
+        • Hearing travel and entertainment expenditure requests
+        • Carrying out additional Senate-delegated duties (Chair/Vice Chair agreement or 3/4 Senate vote)
+    url: "https://asfb.as.ucsb.edu/"
+
+  - id: finance_committee_meetings
+    title: "Finance Committee: meetings & schedule"
+    tags: [finance, committee, meetings, schedule]
+    text: |
+      The A.S. Finance Committee meets weekly on Mondays at 4:00 PM during Fall, Winter, and Spring quarters.
+      Exceptions: holidays, Finals Week, and Week 10 of each quarter.
+      Committee website (https://asfb.as.ucsb.edu/) provides:
+        • Office hours
+        • Member email addresses
+        • Liaison groups
+      Website updates are required by the second week of each quarter.
+    url: "https://asfb.as.ucsb.edu/"
+
+  - id: finance_committee_support
+    title: "Finance Committee: support for organizations"
+    tags: [finance, support, organizations, requisitions]
+    text: |
+      The Finance Committee assists A.S. funded organizations with:
+        • Requisitions and required forms
+        • Budget transfers
+        • Event planning and fiscal planning
+      Contact info and liaison groups are available on the Finance Committee website.
+    url: "https://asfb.as.ucsb.edu/"
+  - id: policy_clause7_overview
+    title: "Clause 7: Specific exceptions to A.S. Financial Policies"
+    tags: [finance, policy, exceptions, approvals]
+    text: |
+      Clause 7 outlines category-specific exceptions to standard A.S. Financial Policies.
+      Each category below defines: (1) what’s covered, (2) when it’s considered, (3) what’s restricted,
+      (4) required documentation, and (5) if/when one-time or multiple exceptions may be requested.
+      Do not fail to mention the fact that unless noted otherwise, prior approval by the A.S. Finance Committee is required for exceptions (before any money is spent)
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_travel
+    title: "Clause 7 — Travel: definition, criteria, and limits"
+    tags: [finance, policy, exceptions, travel, requisitions, reimbursements]
+    text: |
+      Definition: Transportation, lodging, meals, and incidental expenses for official UCSB/A.S. business
+      (e.g., conferences/meetings/events that provide direct benefits to UCSB students).
+
+      Criteria for consideration:
+        - Must directly relate to UCSB/A.S. business and provide tangible student benefit.
+        - Prior approval from the Finance Committee is required.
+
+      Restrictions:
+        - Personal/non-business travel is ineligible.
+        - Airfare is limited to economy/coach; business class only with exceptional justification
+          (e.g., long-haul international).
+
+      Documentation:
+        - Detailed itinerary, conference announcement, and pre-approved requisition.
+        - Itemized receipts for lodging, meals, and transportation submitted within two months of return.
+        - Private vehicle use: proof of insurance under UC Policy #7525 and mileage logs.
+
+      One-time exception:
+        - A.S. BCUs may request more than one exception when travel exceeds standard allowances
+          or involves exceptional circumstances justified by the event.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_food
+    title: "Clause 7 — Food: caps, per-person limits, and proof"
+    tags: [finance, policy, exceptions, food, events]
+    text: |
+      Definition: Meals/beverages for A.S.-sponsored events or meetings that support student engagement
+      and recruitment.
+
+      Criteria for consideration:
+        - Must support events that actively engage students or contribute to officially sanctioned A.S. activities.
+
+      Restrictions:
+        - Annual cap: $1,000.00 per organization.
+        - Not covered: social gatherings, banquets, and off-campus events (except those in Isla Vista).
+        - Per-person limits: $10 refreshments, $14 breakfast, $25 lunch, $42 dinner.
+
+      Documentation:
+        - Itemized receipts (if missing, submit a Declaration of Missing Evidence form).
+        - Oral justification at a Finance Committee meeting is required.
+
+      One-time exception:
+        - RCOs that exceed the $1,000 cap may apply for a one-time exception for critical events.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_merchandise
+    title: "Clause 7 — Merchandise: promotional use & ethical sourcing"
+    tags: [finance, policy, exceptions, merchandise, procurement, ethics]
+    text: |
+      Definition: Promotional items (e.g., t-shirts, bags, pens, hats or any kind of that falls under the oxford dictoinary defintion of merchandise) to raise awareness for A.S. events,
+      campaigns, or initiatives.
+
+      Criteria for consideration:
+        - Must align with the organization’s mission and promote A.S. campaigns or events.
+
+      Restrictions:
+        - Uniforms/apparel without a promotional purpose are ineligible.
+        - Items must be produced in ethical, sweatshop-free environments.
+
+      Documentation:
+        - Receipts, supplier details, and proof of ethical production.
+        - Statement explaining the educational/promotional purpose.
+
+      One-time exception:
+        - A.S. BCUs may request more than one exception when justified for needs exceeding standard limits.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_contracts
+    title: "Clause 7 — Contracts: approvals & lead times"
+    tags: [finance, policy, exceptions, contracts, procurement, compliance]
+    text: |
+      Definition: Agreements with external entities for services (e.g., speakers, performers) that directly
+      support UCSB/A.S. business activities.
+
+      Criteria for consideration:
+        - Must provide clear benefits to UCSB students.
+        - Requires review and approval by the A.S. Executive Director and Chief Compliance Officer.
+
+      Restrictions:
+        - Must comply with UC and UCSB procurement, insurance, and liability policies.
+
+      Documentation:
+        - Contract must include scope of work, deliverables, costs, and timelines.
+        - Submit at least two weeks prior to the event.
+
+      One-time exception:
+        - A.S. BCUs may apply for multiple exceptions when unique services or high-budget contracts are essential
+          to a major A.S. event.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_health_safety
+    title: "Clause 7 — Health & Safety: essential event needs"
+    tags: [finance, policy, exceptions, health, safety, events]
+    text: |
+      Definition: Essential expenses for participant health and safety at A.S. events (e.g., first aid kits,
+      sanitization supplies, security).
+
+      Criteria for consideration:
+        - Measures must be essential for safe operation of the event.
+
+      Restrictions:
+        - Only essential items are covered; costs must be proportionate to event size.
+
+      Documentation:
+        - Receipts and justification for each safety-related purchase.
+
+      One-time exception:
+        - Large-scale events needing extensive health/safety measures may request multiple exceptions if justified.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_retroactive_reimbursements
+    title: "Clause 7 — Retroactive reimbursements: voting thresholds"
+    tags: [finance, policy, exceptions, reimbursements, approvals]
+    text: |
+      Definition: Reimbursements for essential expenses incurred without prior A.S. approval under exceptional
+      circumstances.
+
+      Criteria for consideration:
+        - Only for essential, unanticipated expenses.
+
+      Restrictions:
+        - Requires stringent review and a two-thirds (2/3) vote from BOTH the Finance Committee and the Senate.
+
+      Documentation:
+        - Itemized receipts and a detailed explanation of the circumstances.
+
+      One-time exception:
+        - A.S. BCUs may apply for multiple exceptions if expenses are justifiable.
+    url: "https://as.ucsb.edu/"
+
+  - id: policy_clause7_decorations
+    title: "Clause 7 — Decorations: modest, mission-aligned"
+    tags: [finance, policy, exceptions, decorations, sustainability, events]
+    text: |
+      Definition: Event decorations (e.g., banners, table settings) used to enhance A.S.-sponsored events.
+
+      Criteria for consideration:
+        - Must contribute to the event’s objectives and align with A.S. values (e.g., sustainability).
+
+      Restrictions:
+        - Expenditures must be modest; avoid non-essential or luxury items.
+
+      Documentation:
+        - Receipts and a justification of how decorations support the event.
+
+      One-time exception:
+        - A.S. BCUs may request multiple exceptions when justified by event needs.
+    url: "https://as.ucsb.edu/"
+
+  - id: spent_money_before_approval
+    title: "What to do if money was spent before approval"
+    tags: [finance, policy, exceptions, compliance]
+    text: |
+      If the user is saying that theyve already spent the money before getting approval from the finance committee, first empathize with them and say that you understand that sometimes things come up and money needs to be spent quickly. However, it is important to follow the proper procedures to ensure compliance with A.S. Financial Policies.)
+      The Committee will evaluate the circumstances and may consider a retroactive reimbursement
+      exception requiring a two-thirds vote from both the Committee and Senate, but it is not guaranteed and the Finance Committee always reserves its right to deny any request at any point in the process.
+      Emphasize that this is an exception process and not a standard practice; future compliance is expected.
+    url: "https://as.ucsb.edu/"
+
+  - id: where_to_find_account_numbers
+    title: "Where to find A.S. account numbers"
+    tags: [finance, accounts, reference]
+    text: |
+      If they are a BCU(Board, Comittee, Units), they can just review their budget packet that they received at the beginning of the year, or they can reach out to their BCU chair or secretary. If they are an RCO(Registered Campus organization), they can find their account number by logging into Shoreline, going to the "My Organizations" tab, selecting their organization, and then looking under the "Finance" section.
+      Alternatively, they can refer to the A.S. Answers article "What's my account number?"
+    url: https://answers.as.ucsb.edu/2015/02/02/
+
+  - id: purchase_order_vs_check
+    title: "Purchase Order vs. Check: when to use each"
+    tags: [finance, requisitions, payments]
+    text: |
+      Use a Purchase Order (PO) when committing to pay a vendor for goods/services before delivery.
+      POs are ideal for vendors requiring upfront payment or for recurring charges.
+      Use a Check for reimbursements to individuals or one-time payments after services/goods are received.
+      Ensure the correct form is selected on the requisition to avoid processing delays.
+
+      If you think if someone might be confused about which one to use, maybe try and explain it to the user with an analogy or a real life example or where what should be used. Here is one that I use: 
+
+      Lets say if I want to throw an event and I am requesting funding to buy some pizzas from Woodstocks(Pizza restaurant in Isla Vista), one option I have is that after funding is approved by the Finance Committee, or any other A.S. Entity, I can go buy the pizzas from my own money, and them submit the phsycial reciepts, along with the completed requisition form, and the meeting minutes that show that the funding was approved to the A.S. Admin office, and then they will process a check that will be mailed to me in the mail or I'd have to pick it up at the A.S. Ticket Office for the amount that I spent on the pizzas. This is an example of when you would use a check.
+      Now that works great for small purchases, but what If i want to reserve, lets say, the Corwin Pavlion for my event, now thats like a $1000/hr, I cant really afford to pay out of pocket for that, so what I can do is that after the funding is approved by the Finance Committee, or any other A.S. Entity, I can fill out a requisition form and select purchase order as the payment type, and then attach the meeting minutes that show that the funding was approved, and then submit it to the A.S. Admin office, and then they will process a purchase order that will be sent to UCSB Event Services, and then they will bill A.S. directly for the amount that was approved by the Finance Committee. I wouldnt have to pay a thing out of pocket, but Purchase Orders do take longer to be processed so make sure you submit all relevant documents as quickly as possible. This is an example of when you would use a purchase order.
+
+    url: "https://www.as.ucsb.edu/requisition-form/"
+
+  - id: as_bike_shop
+    title: "A.S. Bike Shop"
+    tags: [as, enterprise, bike, transportation]
+    text: |
+      The A.S. Bike Shop provides affordable bike repair and maintenance services to UCSB students and the community.
+      Students can get flat repairs, tune-ups, and access to tools, parts, and advice from experienced mechanics.
+      It is a self-sustaining unit that runs on service revenue and student fees.
+    url: https://bike.as.ucsb.edu/
+
+  - id: as_ticket_office
+    title: "A.S. Cashier’s & Ticket Office"
+    tags: [as, enterprise, tickets, cashier]
+    text: |
+      The A.S. Cashier’s and Ticket Office (CTO) sells tickets for campus concerts, events, and bus passes.
+      It also manages A.S. emergency student loans and distributes lock-in fee stickers for student IDs.
+      CTO is located in the UCen.
+    url: https://ticketoffice.as.ucsb.edu/
+
+  - id: as_lrc
+    title: "A.S. Legal Resource Center"
+    tags: [as, enterprise, legal, resources]
+    text: |
+      The Legal Resource Center (LRC) provides free legal advice and education to UCSB undergraduates.
+      Students can meet with a licensed attorney (hired annually by A.S.) for issues like housing, contracts, and citations.
+      The LRC also offers templates, workshops, and intern opportunities.
+    url: https://lrc.as.ucsb.edu/
+
+  - id: as_publications
+    title: "A.S. Publications & Notetaking"
+    tags: [as, enterprise, publications, accessibility]
+    text: |
+      A.S. Publications provides notetaking services for students with DSP accommodations.
+      It also offers academic publications and course readers.
+      This unit helps make course materials more accessible to all students.
+    url: https://as.ucsb.edu/
+
+  - id: as_zero_waste
+    title: "A.S. Zero Waste Committee"
+    tags: [as, enterprise, sustainability, recycling]
+    text: |
+     The Zero Waste Committee works to reduce campus waste through recycling, composting, and outreach.
+     It provides bins, runs educational campaigns, and partners with other A.S. environmental groups.
+    url: https://as.ucsb.edu/
+
+  - id: as_food_bank
+    title: "A.S. Food Bank"
+    tags: [as, enterprise, food-security, resources]
+    text: |
+      The A.S. Food Bank provides free groceries, toiletries, and fresh produce to UCSB undergraduates facing food insecurity.
+      It also offers CalFresh enrollment help, workshops, and resource referrals.
+    url: https://foodbank.as.ucsb.edu/
+
+  - id: as_kcsb
+    title: "KCSB Radio 91.9 FM"
+    tags: [as, media, radio, events]
+    text: |
+      KCSB is UCSB’s student-run, community radio station, broadcasting 24/7 at 91.9 FM.
+      It provides music, news, sports, and cultural programming, with opportunities for students to become DJs, reporters, and producers.
+      KCSB is independent and offers diverse content often absent in mainstream media.
+    url: https://www.kcsb.org/
+
+  - id: as_tbl
+    title: "The Bottom Line (TBL)"
+    tags: [as, media, newspaper, journalism]
+    text: |
+      The Bottom Line is UCSB’s student-run newspaper.
+      It publishes news, features, opinions, arts, science & tech, and photo/video journalism online and in print.
+      TBL serves as a training ground for future journalists and a platform for student voices.
+    url: https://thebottomline.as.ucsb.edu/
+
+  - id: as_creative_media
+    title: "A.S. Creative Media Unit (CMU)"
+    tags: [as, media, creative, design]
+    text: |
+      The Creative Media Unit (CMU) is the hub for A.S. marketing, graphics, photography, videography, and UCSB TV.
+      It helps promote events, runs student media training, and provides design services to A.S. groups.
+      CMU also oversees social media campaigns for A.S.
+    url: https://as.ucsb.edu/
+
+  - id: as_program_board
+    title: "A.S. Program Board"
+    tags: [as, events, concerts, entertainment]
+    text: |
+      A.S. Program Board produces concerts, films, cultural events, and festivals at UCSB.
+      They organize Extravaganza (the annual free music festival), Welcome Back Concert, film screenings, and more.
+      Program Board gives students hands-on experience in event production and artist booking.
+    url: https://aspb.as.ucsb.edu/
+  
+  - id: cab_overview
+    title: "Community Affairs Board (CAB)"
+    tags: [as, philanthropy, volunteering, cab]
+    text: |
+      Community Affairs Board is A.S.’s hub for community service: volunteer listings, student-run service projects, and Alternative Breaks.
+      Open to all students; leaders are student coordinators (two Senators serve as liaisons).
+      Expect weekly meetings, tabling, and hour logging for volunteers. cite: A.S. Legal Code, Philanthropy Units §1 (CAB)
+    url: https://cab.as.ucsb.edu/
+ 
+
+  - id: coastal_fund_overview
+    title: "A.S. Coastal Fund"
+    tags: [as, philanthropy, environment, coastline]
+    text: |
+      A.S. Coastal Fund is a Student-fee funded grant program to protect and enhance the UCSB/Isla Vista coastline (restoration, research, education, cleanups).
+      Funds campus and community proposals that benefit the coastal environment. cite: A.S. Legal Code, Philanthropy Units §3 (Coastal Fund)
+    url: https://coastalfund.as.ucsb.edu/
+
+
+  - id: community_financial_fund
+    title: "A.S. Community Financial Fund (CFF)"
+    tags: [as, philanthropy, basic-needs, finance]
+    text: |
+      the A.S. Community Financial Fund Grants, low-interest student loans, financial literacy workshops, and a credit-builder program for undergrads.
+      Administered under A.S. with professional guidance; separate from emergency loans at the Ticket Office. cite: A.S. By-Laws Art. IV §10 & §11; CFF section
+    url: https://as.ucsb.edu/
+    citations: [""]
+
+  - id: ivcrc_overview
+    title: "Isla Vista Community Relations Committee (IVCRC)"
+    tags: [as, philanthropy, isla-vista, community]
+    text: |
+      IVCRC(Isla Vista Community Relations Committee) funds and coordinates projects that improve life in Isla Vista (safety, lighting, art, community events) and serves as a liaison with IV stakeholders. cite: A.S. Legal Code, Philanthropy Units §5 (IVCRC)
+    url: https://as.ucsb.edu/
+  
+  - id: ivtu_overview
+    title: "Isla Vista Tenants Union (IVTU) — what it does"
+    tags: [as, advocacy, housing, ivtu]
+    text: |
+      Isla Vista Tenants Union is Peer-run tenant support for IV and nearby areas: rights education, habitability, deposits, and landlord communication; partners with the LRC for legal education.
+      Includes an Advisory Board structure and EVPLA linkage. cite: A.S. Legal Code, Advocacy Units §1 (IVTU)
+    url: https://ivtu.as.ucsb.edu/
+
+
+  - id: lobby_corps_overview
+    title: "A.S. Lobby Corps"
+    tags: [as, advocacy, policy, uc-system]
+    text: |
+      A.S. Lobby Corps Trains students to advocate at local, state, and federal levels; coordinates with EVPLA/EVPSA on legislative agendas and student campaigns. cite: A.S. Legal Code, Advocacy Units §2 (Lobby Corps)
+    url: https://as.ucsb.edu/
+
+
+  - id: coswb_overview
+    title: "Commission on Student Well-Being (COSWB)"
+    tags: [as, advocacy, wellness, mental-health]
+    text: |
+      the Commission on Student Well-Being Peer wellness programming (sleep, stress, movement, nutrition); collaborates with campus partners and PMH Commission. cite: A.S. Legal Code, Boards & Commissions §7 (COSWB)
+    url: https://coswb.as.ucsb.edu/
+
+
+  - id: code_overview
+    title: "Commission on Disability Equality (CODE)"
+    tags: [as, advocacy, disability, accessibility]
+    text: |
+      The Commission on Disability Equality (CODE) Advocates for disability access and inclusion; advises on training accessibility standards and supports entities creating inclusive programming. cite: A.S. Legal Code, Boards & Commissions §6; Training Article (accessibility form)
+    url: https://as.ucsb.edu/
+
+
+  - id: score_overview
+    title: "Student Commission on Racial Equity (SCORE)"
+    tags: [as, advocacy, equity, inclusion]
+    text: |
+      The Student Commission on Racial Equity (SCORE) Addresses concerns of underrepresented students; funds/hosts programs that advance racial equity and campus climate. cite: A.S. Legal Code, Boards & Commissions §13 (SCORE)
+    url: https://as.ucsb.edu/
+
+
+  - id: t_q_commission
+    title: "Trans & Queer Commission"
+    tags: [as, advocacy, lgbtq+, inclusion]
+    text: |
+      The Trans & Queer Commission is about Advocacy, education, and community-building for trans and queer students; funds events and campaigns across campus. cite: A.S. Legal Code, Boards & Commissions §12
+    url: https://as.ucsb.edu/
+
+
+  - id: jewish_commission
+    title: "A.S. Jewish Commission"
+    tags: [as, advocacy, faith, inclusion]
+    text: |
+      The A.S. Jewish Commission Supports Jewish student life and combats antisemitism through advocacy, education, and programming; collaborates across A.S. entities. cite: A.S. Legal Code, Boards & Commissions §17
+    url: https://as.ucsb.edu/
+
+
+  - id: human_rights_board
+    title: "Human Rights Board"
+    tags: [as, advocacy, human-rights]
+    text: |
+      The Human Rights Board Educates and advocates on domestic and global human-rights issues; funds programs and coalitions with student orgs. cite: A.S. Legal Code, Boards & Commissions §10
+    url: https://as.ucsb.edu/
+
+
+  - id: pmh_commission
+    title: "Public & Mental Health Commission (PMH)"
+    tags: [as, advocacy, mental-health, public-health]
+    text: |
+      The Public & Mental Health CommissionPromotes student mental and public health; runs the Student Mental Health Task Force with cross-A.S. membership and funding request criteria. cite: A.S. Legal Code, Advocacy Units §3–§4 (PMH & Task Force)
+    url: https://as.ucsb.edu/
+
+
+  - id: eab_overview
+    title: "Environmental Affairs Board (EAB)"
+    tags: [as, advocacy, sustainability, environment]
+    text: |
+      the Environmental Affairs Board Flagship environmental org: climate advocacy, campaigns, education; collaborates with Zero Waste and EJ Alliance; a go-to for “Green Bill” best practices. cite: A.S. Legal Code, Boards & Commissions §7; Standing Policies (Green Bill)
+    url: https://eab.as.ucsb.edu/
+
+
+  - id: ej_alliance
+    title: "Environmental Justice Alliance (EJA)"
+    tags: [as, advocacy, environment, justice]
+    text: |
+      the Environmental Justice Alliance Advances environmental justice on and off campus; centers frontline communities and equity within sustainability. cite: A.S. Legal Code, Boards & Commissions §8
+    url: https://as.ucsb.edu/
+
+  - id: transfer_student_alliance
+    title: "Transfer Student Alliance (TSA)"
+    tags: [as, advocacy, transfer, inclusion]
+    text: |
+      The Transfer Student Alliance has Transfer student -centered advocacy and programming; collaborates with the Transfer Senator and campus partners to improve transfer experience. cite: A.S. Legal Code, Advocacy Units §4 (TSA)
+    url: https://as.ucsb.edu/
+  
+  # UCSB Campus Life Notes
+
+  - id: ucsb_colleges
+    title: "UCSB Colleges overview"
+    tags: [ucsb, academics, colleges]
+    text: |
+      UCSB has three undergraduate colleges:
+      • College of Letters & Science (L&S) — the largest, broad range of majors/minors.
+      • College of Engineering (CoE) — small, selective (CS, CE, EE, ME, ChemE).
+      • College of Creative Studies (CCS) — very small, portfolio/research focused, nicknamed the “graduate school for undergrads.”
+      Your college determines your advising office and GE (General Education) requirements.
+
+  - id: ucsb_library
+    title: "UCSB Library & study spaces"
+    tags: [ucsb, academics, library]
+    text: |
+      The UCSB Library is the main study hub on campus.  
+      • Open 24/5 during the quarter; has 24-hour Study Room year-round.  
+      • Offers course reserves, printers, and group study rooms.  
+      • Subject librarians (a.k.a. research help experts) can help with citations, research projects, and databases.
+
+  - id: clas_tutoring
+    title: "CLAS (Campus Learning Assistance Services)"
+    tags: [ucsb, academics, tutoring, clas]
+    text: |
+      CLAS = Campus Learning Assistance Services.  
+      Provides free tutoring, drop-in help, writing workshops, and study skills coaching.  
+      Subjects include math, science, writing, languages, and more.  
+      Great place to get peer-led help outside class.
+
+  - id: dsp_support
+    title: "DSP (Disabled Students Program)"
+    tags: [ucsb, accessibility, dsp, academics]
+    text: |
+      DSP = Disabled Students Program.  
+      Provides academic accommodations for students with disabilities (e.g., extra exam time, note-taking, captioning).  
+      Students register with DSP, submit documentation, and then share official accommodation letters with professors.
+
+  - id: eop_support
+    title: "EOP (Educational Opportunity Program)"
+    tags: [ucsb, academics, eop, first-gen]
+    text: |
+      EOP = Educational Opportunity Program.  
+      Supports first-generation, low-income, and historically underserved students with advising, counseling, and academic resources.  
+      Offices in the Student Resource Building (SRB).
+
+  - id: gaucho_id
+    title: "Gaucho ID card"
+    tags: [ucsb, id-card, student-services]
+    text: |
+      The Gaucho ID is UCSB’s student ID card.  
+      • Used for meal swipes, printing, RecCen access, MTD bus rides, and checking out library books.  
+      • You can add Gaucho Bucks (campus debit) to pay at cafes and printers.  
+      • Cards are issued at the UCen.
+
+  - id: dining_commons
+    title: "Dining Commons (DCs)"
+    tags: [ucsb, dining, housing, food]
+    text: |
+      UCSB has four main dining halls (DCs = Dining Commons):  
+      • De La Guerra (DLG) — central campus, busiest.  
+      • Ortega — smaller, à-la-carte feel.  
+      • Carrillo — near Manzanita Village, good variety.  
+      • Portola — near Santa Catalina (FT).  
+      All use the unlimited swipes system for residents.
+
+  - id: rec_center
+    title: "RecCen (Recreation Center)"
+    tags: [ucsb, fitness, recreation, gym]
+    text: |
+      RecCen = UCSB Recreation Center.  
+      • Facilities: gym, pools, climbing wall, intramural sports, group fitness.  
+      • Offers Adventure Programs (surf, backpacking, climbing trips).  
+      • Students with ID get free access.
+
+  - id: transportation
+    title: "Transportation at UCSB"
+    tags: [ucsb, transportation, bikes, bus]
+    text: |
+      • Biking is huge — campus has its own bike path system with roundabouts.  
+      • MTD (Metropolitan Transit District) bus rides are free with Gaucho ID (Gaucho U-Pass).  
+      • Cars: freshmen usually can’t get campus permits.  
+      • CSO (Campus Safety Officers) run Gaucho Ride — free nighttime safety escorts.
+
+  - id: caps_support
+    title: "CAPS (Counseling & Psychological Services)"
+    tags: [ucsb, wellness, mental-health, caps]
+    text: |
+      CAPS = Counseling & Psychological Services.  
+      • Provides therapy, crisis counseling, and workshops.  
+      • 24/7 crisis line: (805) 893-4411.  
+      • Located in Building 599, next to Student Health.
+
+  - id: student_health
+    title: "Student Health Services"
+    tags: [ucsb, wellness, medical, health]
+    text: |
+      UCSB Student Health = campus medical clinic.  
+      • Services: primary care, urgent care, pharmacy, lab, x-ray.  
+      • Appointments made online via Student Health portal.  
+      • Student health insurance (UC SHIP) is handled here, but students can waive it with other coverage.
+
+  - id: care_support
+    title: "CARE (Campus Advocacy, Resources, & Education)"
+    tags: [ucsb, wellness, care, advocacy]
+    text: |
+      CARE = confidential support for survivors of sexual assault, dating/domestic violence, and stalking.  
+      • Offers advocacy, accompaniment, and educational workshops.  
+      • Located in the SRB (Student Resource Building).
+
+  - id: gaucho_ride
+    title: "Gaucho Ride / CSO Escorts"
+    tags: [ucsb, safety, transport, cso]
+    text: |
+      Gaucho Ride = free nighttime safety escort service.  
+      • Run by CSOs (Campus Safety Officers).  
+      • Available Sun–Thurs, 7 PM to 12 AM, within a ~1-mile radius of campus.  
+      • Request by calling (805) 893-2000.
+
+  - id: housing_basics
+    title: "Housing at UCSB"
+    tags: [ucsb, housing, dorms, apartments]
+    text: |
+      • On-campus housing: FT (Santa Catalina), Manzanita Village, San Miguel, San Nicolas, Santa Rosa, Anacapa, De Anza, Sierra Madre, San Joaquin.  
+      • Most freshmen live in residence halls, then move to Isla Vista (IV) apartments in later years.  
+      • UCSB Housing also manages family housing and graduate apartments.
+
+  - id: isla_vista_overview
+    title: "Isla Vista (IV) overview"
+    tags: [ucsb, isla-vista, community, housing]
+    text: |
+      Isla Vista = 1-square-mile community next to UCSB with ~20,000 residents (mostly students).  
+      • Known for DP (Del Playa Drive), student culture, music, food (Freebirds, Bagel Café).  
+      • Events like Halloween and Deltopia are large, heavily policed gatherings.  
+      • A.S. IVTU, IVCRC, and EVPLA office all focus on IV issues.
+
+  - id: athletics_basics
+    title: "UCSB Athletics overview"
+    tags: [ucsb, sports, athletics]
+    text: |
+      UCSB = NCAA Division I, part of the Big West Conference.  
+      • Popular sports: men’s soccer, men’s basketball, baseball, water polo.  
+      • Nickname: Gauchos.  
+      • Mascot: Olé the Gaucho.  
+      • Events held at Thunderdome (basketball/volleyball), Caesar Uyesaka Stadium (baseball), Harder Stadium (soccer).
+
+  - id: arts_events
+    title: "Arts & Lectures (A&L)"
+    tags: [ucsb, arts, events, lectures]
+    text: |
+      A&L = Arts & Lectures.  
+      • Brings world-class concerts, speakers, films, and performances to UCSB.  
+      • Events happen at Campbell Hall, Granada Theater, or Arlington Theater.  
+      • Student discounts available.
+
+  - id: storke_tower
+    title: "Storke Tower & campus landmarks"
+    tags: [ucsb, landmarks, history]
+    text: |
+      Storke Tower = tallest building in Santa Barbara County (175 feet).  
+      • Houses a carillon (bells) that chime hourly.  
+      • Iconic UCSB landmark overlooking the Lagoon.  
+      Other landmarks: UCSB Lagoon, Events Center (“Thunderdome”), UCen, Arbor.
+
+  - id: shoreline_portal
+    title: "Shoreline (student org portal)"
+    tags: [ucsb, student-orgs, seal, shoreline]
+    text: |
+      Shoreline = UCSB’s student organization portal.  
+      • All RCOs (Registered Campus Organizations) must re-register yearly via Shoreline.  
+      • Students can join clubs, view events, and access organization pages.  
+      • Login with UCSB NetID.
+
+
+
+
+
+
+
+

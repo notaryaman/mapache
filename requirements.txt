@@ -1,9 +1,16 @@
-streamlit==1.38.0
-# sentence-transformers needs torch; install CPU wheels via the extra index:
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.3.1+cpu
-torchvision==0.18.1+cpu
-torchaudio==2.3.1+cpu
-sentence-transformers==2.6.1
-numpy<2.0
-pyyaml
+# Streamlit
+streamlit>=1.38,<1.51
+
+# Core deps
+pyyaml>=6.0.1
+requests>=2.31.0
+regex>=2024.5.15
+numpy>=2.0
+
+# ML stack (Py3.13-compatible wheels on PyPI)
+torch==2.7.1          # CPU wheels available on PyPI for 3.13
+sentence-transformers>=3.0.0
+faiss-cpu==1.12.0     # has Py3.13 wheels
+
+# If you had an --extra-index-url for torch, REMOVE it.
+# Do NOT pin torch to 2.3.x on Python 3.13.

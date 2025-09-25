@@ -1,16 +1,9 @@
-# --- core app ---
 streamlit==1.38.0
-pyyaml>=6.0.1
-requests>=2.31.0
-regex>=2024.5.15
-numpy==1.26.4
-
-# --- retrieval stack ---
-faiss-cpu==1.8.0.post1
-
-# --- sentence transformers stack (includes CrossEncoder) ---
-sentence-transformers==2.7.0
-transformers>=4.41.0
-accelerate>=0.31.0
-scikit-learn>=1.4.0
-torch==2.3.1
+# sentence-transformers needs torch; install CPU wheels via the extra index:
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+torchaudio==2.3.1+cpu
+sentence-transformers==2.6.1
+numpy<2.0
+pyyaml
